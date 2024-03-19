@@ -2,4 +2,5 @@
 
 <template>
   <Navbar />
+  <Billboard />
 </template>
