@@ -5,7 +5,7 @@ import Button from "./ui/button/Button.vue";
 
 <template>
   <nav
-    class="flex flex-row bg-green-600 h-20 w-full items-center px-40 justify-between"
+    class="flex flex-row max-sm:flex-col bg-green-600 h-20 max-sm:h-28 w-full items-center md:px-40 justify-between max-md:justify-evenly"
   >
     <ul class="flex flex-row space-x-4">
       <li>

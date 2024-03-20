@@ -4,20 +4,22 @@ import Button from "./ui/button/Button.vue";
 </script>
 
 <template>
-  <div class="h-fit w-full flex justify-center items-center space-x-32 py-28">
+  <div
+    class="h-fit w-full flex flex-row max-lg:flex-col-reverse justify-center items-center lg:space-x-20 lg:py-28"
+  >
     <img
       class="select-none"
       src="/src/assets/about-featured-image.png"
       alt="image?.name"
     />
 
-    <div class="w-[550px] space-y-6">
+    <div class="max-w-[550px] space-y-6 max-lg:pt-20 max-lg:px-10">
       <h2
         class="text-5xl font-semibold tracking-tight transition-colors first:mt-0 uppercase"
       >
         CAPTURE UNFORGETTABLE MOMENTS.
       </h2>
-      <p class="text-lg leading-7">
+      <p class="text-lg leading-7 w-full">
         Seuismod ligula ipsum vulputate tellus quisque dictum tortor at purus
         faucibus tincidunt, pellentesque habitant morbi tristique senectus et
         netus et malesuada fames ac turpis egestas.
