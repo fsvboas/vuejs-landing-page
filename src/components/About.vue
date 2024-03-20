@@ -4,7 +4,7 @@ import Button from "./ui/button/Button.vue";
 </script>
 
 <template>
-  <div class="h-fit w-full flex justify-center items-center space-x-32 py-10">
+  <div class="h-fit w-full flex justify-center items-center space-x-32 py-28">
     <img
       class="select-none"
       src="/src/assets/about-featured-image.png"
