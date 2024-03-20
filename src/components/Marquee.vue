@@ -10,13 +10,15 @@ export default {
 </script>
 
 <template>
-  <Vue3Marquee>
-    <img
-      class="select-none"
-      v-for="(image, index) in images"
-      :src="image?.imageUrl"
-      :alt="image?.name"
-      :key="index"
-    />
-  </Vue3Marquee>
+  <div class="bg-black h-20 w-full flex items-center">
+    <Vue3Marquee :clone="true">
+      <img
+        class="select-none mx-20"
+        v-for="(image, index) in images"
+        :src="image?.imageUrl"
+        :alt="image?.name"
+        :key="index"
+      />
+    </Vue3Marquee>
+  </div>
 </template>
