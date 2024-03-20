@@ -10,7 +10,7 @@ import Button from "./button/Button.vue";
   >
     <img
       class="select-none"
-      src="/src/assets/about-featured-image.png"
+      src="/src/assets/images/about-featured-image.png"
       alt="image?.name"
     />
 

@@ -17,19 +17,19 @@ import {
 const sponsors = [
   {
     name: "Google",
-    imageUrl: "/src/assets/sponsors/google.png",
+    imageUrl: "/src/assets/images/sponsors/google.png",
   },
   {
     name: "Facebook",
-    imageUrl: "/src/assets/sponsors/facebook.png",
+    imageUrl: "/src/assets/images/sponsors/facebook.png",
   },
   {
     name: "Yahoo",
-    imageUrl: "/src/assets/sponsors/yahoo.png",
+    imageUrl: "/src/assets/images/sponsors/yahoo.png",
   },
   {
     name: "PayPal",
-    imageUrl: "/src/assets/sponsors/paypal.png",
+    imageUrl: "/src/assets/images/sponsors/paypal.png",
   },
 ];
 

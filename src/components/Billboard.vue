@@ -4,7 +4,7 @@ import Button from "./button/Button.vue";
 
 <template>
   <div
-    class="bg-[url('/src/assets/billboard-background-image.jpg')] bg-center h-fit w-full p-28 max-md:px-4 max-md:py-10 xl:p-40"
+    class="bg-[url('/src/assets/images/billboard-background-image.jpg')] bg-center h-fit w-full p-28 max-md:px-4 max-md:py-10 xl:p-40"
   >
     <div class="max-w-2xl space-y-10">
       <h2
