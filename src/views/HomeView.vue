@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import About from "@/components/About.vue";
 import Billboard from "@/components/Billboard.vue";
 import Marquee from "@/components/Marquee.vue";
 import Navbar from "@/components/Navbar.vue";
@@ -27,4 +28,5 @@ const sponsors = [
   <Navbar />
   <Billboard />
   <Marquee :images="sponsors" />
+  <About />
 </template>
