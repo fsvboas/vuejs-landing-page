@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Facebook, Instagram, Twitter } from "lucide-vue-next";
-import Button from "./ui/button/Button.vue";
+import Button from "./button/Button.vue";
 </script>
 
 <template>

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Camera, Eye, Images, Video } from "lucide-vue-next";
-import Button from "./ui/button/Button.vue";
+import Button from "./button/Button.vue";
 </script>
 
 <template>
