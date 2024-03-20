@@ -8,8 +8,7 @@ const props = defineProps<{
 
 <template>
   <div
-    ref="featuresRef"
-    class="w-full h-full p-20 bg-green-600 grid max-sm:grid-cols-1 max-md:grid-cols-2 grid-cols-3 grid-rows-2 gap-10 place-items-center"
+    class="w-full h-full sm:p-20 bg-green-600 grid max-sm:grid-cols-1 max-lg:grid-cols-2 grid-cols-3 grid-rows-2 gap-10 place-items-center"
   >
     <FeatureCard
       v-for="(feature, index) in props?.features"

@@ -4,15 +4,15 @@ import Button from "./ui/button/Button.vue";
 
 <template>
   <div
-    class="bg-[url('/src/assets/billboard-background-image.jpg')] bg-center bg h-fit w-full p-40 max-lg:p-10"
+    class="bg-[url('/src/assets/billboard-background-image.jpg')] bg-center h-fit w-full p-28 max-md:px-4 max-md:py-10 xl:p-40"
   >
     <div class="max-w-2xl space-y-10">
       <h2
-        class="text-white text-5xl font-semibold tracking-tight transition-colors first:mt-0 uppercase"
+        class="text-white max-md:text-3xl text-5xl font-semibold tracking-tight transition-colors first:mt-0 uppercase"
       >
         Take photos like a pro.
       </h2>
-      <p class="leading-7 max-w-[500px] text-white">
+      <p class="md:text-lg leading-7 max-w-[500px] text-white">
         With only your Iphone and capture app you can take stunning image like a
         professional Photographer.
       </p>
