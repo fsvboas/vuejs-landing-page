@@ -5,6 +5,7 @@ import Button from "./button/Button.vue";
 
 <template>
   <div
+    id="about"
     class="h-fit w-full flex flex-row max-lg:flex-col-reverse justify-center items-center lg:space-x-20 lg:py-28"
   >
     <img

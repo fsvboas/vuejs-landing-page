@@ -8,6 +8,7 @@ const props = defineProps<{
 
 <template>
   <div
+    id="features"
     class="w-full h-full sm:p-20 bg-green-600 grid max-sm:grid-cols-1 max-lg:grid-cols-2 grid-cols-3 grid-rows-2 gap-10 place-items-center"
   >
     <FeatureCard

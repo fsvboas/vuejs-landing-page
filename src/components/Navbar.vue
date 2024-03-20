@@ -9,25 +9,22 @@ import Button from "./button/Button.vue";
   >
     <ul class="flex flex-row space-x-4">
       <li>
-        <Button
-          variant="link"
-          class="text-white uppercase h-fit w-fit font-medium"
-          >Home</Button
-        >
+        <a href="#about">
+          <Button
+            variant="link"
+            class="text-white uppercase h-fit w-fit font-medium"
+            >About</Button
+          >
+        </a>
       </li>
       <li>
-        <Button
-          variant="link"
-          class="text-white uppercase h-fit w-fit font-medium"
-          >About</Button
-        >
-      </li>
-      <li>
-        <Button
-          variant="link"
-          class="text-white uppercase h-fit w-fit font-medium"
-          >Features</Button
-        >
+        <a href="#features">
+          <Button
+            variant="link"
+            class="text-white uppercase h-fit w-fit font-medium"
+            >Features</Button
+          >
+        </a>
       </li>
     </ul>
     <ul class="hidden md:flex flex-row space-x-4">

@@ -13,7 +13,7 @@ import Button from "./button/Button.vue";
         Take photos like a pro.
       </h2>
       <p class="md:text-lg leading-7 max-w-[500px] text-white">
-        With only your Iphone and capture app you can take stunning image like a
+        With only your phone capture app you can take stunning image like a
         professional Photographer.
       </p>
       <div class="flex flex-row space-x-4 w-full">
