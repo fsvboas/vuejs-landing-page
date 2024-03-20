@@ -5,6 +5,15 @@ import Features from "@/components/Features.vue";
 import Footer from "@/components/Footer.vue";
 import Marquee from "@/components/Marquee.vue";
 import Navbar from "@/components/Navbar.vue";
+import {
+  Image,
+  Inbox,
+  MessageCircle,
+  Palette,
+  Settings,
+  Share,
+} from "lucide-vue-next";
+
 const sponsors = [
   {
     name: "Google",
@@ -26,31 +35,37 @@ const sponsors = [
 
 const features = [
   {
+    icon: Share,
     title: "MALESUADA FAMES TURPIS.",
     resume:
       "vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.",
   },
   {
+    icon: Image,
     title: "MALESUADA FAMES TURPIS.",
     resume:
       "vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.",
   },
   {
+    icon: Palette,
     title: "MALESUADA FAMES TURPIS.",
     resume:
       "vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.",
   },
   {
+    icon: MessageCircle,
     title: "MALESUADA FAMES TURPIS.",
     resume:
       "vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.",
   },
   {
+    icon: Settings,
     title: "MALESUADA FAMES TURPIS.",
     resume:
       "vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.",
   },
   {
+    icon: Inbox,
     title: "MALESUADA FAMES TURPIS.",
     resume:
       "vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.",
